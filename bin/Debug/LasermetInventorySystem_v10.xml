@@ -1,0 +1,106 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LasermetInventorySystem_v10
+</name>
+</assembly>
+<members>
+<member name="T:LasermetInventorySystem_v10.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:LasermetInventorySystem_v10.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:LasermetInventorySystem_v10.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:LasermetInventorySystem_v10.My.Resources.Resources._71024666_106875344050476_761624987231584256_n">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LasermetInventorySystem_v10.My.Resources.Resources.image_not_available">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LasermetInventorySystem_v10.My.Resources.Resources.logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:LasermetInventorySystem_v10.Electronics_InventoryDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:LasermetInventorySystem_v10.Electronics_InventoryDataSet.AccountsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:LasermetInventorySystem_v10.Electronics_InventoryDataSet.AccountsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:LasermetInventorySystem_v10.Electronics_InventoryDataSet.AccountsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.AccountsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(LasermetInventorySystem_v10.Electronics_InventoryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(LasermetInventorySystem_v10.Electronics_InventoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(LasermetInventorySystem_v10.Electronics_InventoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.TableAdapterManager.UpdateAll(LasermetInventorySystem_v10.Electronics_InventoryDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:LasermetInventorySystem_v10.Electronics_InventoryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
